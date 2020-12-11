@@ -5,6 +5,10 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#baixo{
+  font-family: italic;
+}
+
 .square {
   width: 100px;
   height: 100px;
