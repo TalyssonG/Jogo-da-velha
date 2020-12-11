@@ -1,15 +1,45 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
-h1{
-   
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.square{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(231, 235, 236);
-    border: 1px solid gray;
-    display: inline-block;
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(231, 235, 236);
+  border: 1px solid gray;
+  display: inline-block;
 }
+
+.o {
+  position: relative;
+}
+
+.o:after {
+  position: absolute;
+  content: "\1F975";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x {
+    position: relative;
+  }
+  
+  .x:after {
+    position: absolute;
+    content: "\1F976";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
